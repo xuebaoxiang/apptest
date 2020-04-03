@@ -51,7 +51,6 @@ const App= () => {
   return (
     <Router 
       backAndroidHandler={()=>{
-        console.log(Actions.currentScene);
         if(Actions.currentScene != 'home'){
           Actions.pop();
           return true;
